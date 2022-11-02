@@ -17,12 +17,12 @@ The user fill the "Contact us" form on the Automation Page.
 After checking the "I agree" checkbox and clicking the "SUBMIT" button, 
 it is verified that "Thank you" message is displayed.
 
-# reCAPTCHA issue 
+## reCAPTCHA issue 
 There are three ways by which it can be handled Captcha issue in Selenium:
 
 1-You can disable Captcha in test environments.
-2-YOu can click the reCAPTCHA checkbox (iframe switch is used).
-3-You can add a delay in your selenium script and manually solving Captcha while running test automation.
+2-You can click the reCAPTCHA checkbox (iframe switch is used).
+3-You can add a delay in your selenium script in order to solve Captcha issue, while running test automation.
 
 In order to handle reCAPTCHA issue, second and third ones are used in this Test Case.
 
@@ -76,26 +76,26 @@ Tests are executed default with Google Chrome browser.
 ## Reporters
 This framework `selenium-cucumber-java` creates different reports according to dependencies/plugins.
 
-##### HTML Report
+### HTML Report
 Path: ...\target\default-html.reports\ 
 (you can open the index HTML document)
 
-##### Graphical HTML Report
+### Graphical HTML Report
 Path: ...\target\myReports\cucumber-html-reports\ 
 (here you can open any of HTML documents)
 
-##### JSON Report
+### JSON Report
 Path: ...\target\cucumber.json
 
 ## Jira-XRAY Integration
 You can import the `cucumber.json` file into the Test Execution in Jira-XRAY.
 
-### Automation scripts using BDD approach - Cucumber-Java
+## Automation scripts using BDD approach - Cucumber-Java
 Gherkin uses a set of special keywords to give structure and meaning to executable specifications. 
 Each keyword is translated to many spoken languages
 You can find further information about Cucumber-BDD [here](https://cucumber.io/docs/guides/overview/)
 
-##### A typical Scenario
+### A typical Scenario
 ```
 Scenario: eat 5 out of 12
   Given there are 12 cucumbers
